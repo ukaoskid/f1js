@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@f1js/f1js/(.*)": "<rootDir>/../libs/f1js/src/$1",
+    "@f1js/f1js": "<rootDir>/../libs/f1js/src",
+    "@commons/commons/(.*)": "<rootDir>/../libs/commons/src/$1",
+    "@commons/commons": "<rootDir>/../libs/commons/src"
+  }
+}
